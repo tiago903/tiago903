@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 24px;
+  color: #333;
+  background-color: #fff;
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.icon-fade-in {
+  animation: iconFadeIn 1s ease-out forwards;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+@keyframes iconFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(135deg, #B0BEC5, #78909C);
+}
+
+.hero img {
+  border: 6px solid #fff;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.hero img:hover {
+  transform: scale(1.1);
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.hero .btn {
+  border: 2px solid #fff;
+  padding: 12px 32px;
+  font-size: 16px;
+}
+
+#sobre {
+  padding: 80px 0;
+}
+
+#sobre p {
+  font-size: 19px;
+  color: #555;
+  line-height: 28px;
+}
+
+#sobre .highlight-color {
+  color: #FF5722;
+}
+
+#sobre strong {
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  text-align: center;
+  padding: 32px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #777;
+}
+
+#projetos {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+#projetos .card {
+  border: 0;
+  box-shadow: none;
+}
+
+#projetos .card-title {
+  font-size: 24px;
+}
+
+#projetos .card-text {
+  font-size: 18px;
+  color: #555;
+}
+
+#projetos i {
+  color: #00758F;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+#contato {
+  background: linear-gradient(135deg, #B0BEC5, #78909C);
+  color: #fff;
+  padding: 80px 0;
+}
+
+#contato p {
+  font-size: 18px;
+  color: #fff;
+}
+
+#contato .text-center a {
+  color: #fff;
+  margin: 0 24px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 24px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #a7c5f3;
+}
+
+.fab, .fas {
+  color: #f39c12;
+}
+
+.fab.fa-html5 {
+  color: #e34c26;
+}
+
+.fab.fa-css3-alt {
+  color: #1572b6;
+}
+
+.fab.fa-js {
+  color: #f7df1e;
+}
+
+.fab.fa-php {
+  color: #8e44ad;
+}
+
+.fas.fa-database {
+  color: #006d73;
+}
+
+.fab.fa-bootstrap {
+  color: #563d7c;
+}
